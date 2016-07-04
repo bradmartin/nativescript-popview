@@ -1,0 +1,9 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+  <StackLayout>
+    <Label text="{{ message }}" class="message" textWrap="true"/>
+    <Button text="Pop It" tap="{{ pop }}" backgroundColor="#3489db" color="#fff" />
+    <Button text="Pop Replace" tap="{{ popReplace }}" />
+    <Button text="I'm New" id="newBtn" tap="" />
+    
+  </StackLayout>
+</Page>

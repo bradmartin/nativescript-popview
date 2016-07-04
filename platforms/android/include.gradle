@@ -1,0 +1,12 @@
+//default elements
+android {
+    productFlavors {
+        "nativescriptpopview" {
+            dimension "nativescriptpopview"
+        }
+    }
+}
+
+dependencies {
+   compile 'rb.popview:popview:0.1.0'
+}
